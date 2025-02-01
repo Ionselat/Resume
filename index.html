@@ -7,9 +7,20 @@
         table{width: 100%;}
         html{background-color: aliceblue;}
         img{width:150px;}
-        th{text-align: left;}
-        .middle{text-align: center;}
-        .right{text-align: right;}
+        .container{
+            width:100%;
+        }
+        .left{
+            width:25%;
+        }
+        .middle{
+            width:25%;
+        }
+        .left, .middle, .right
+        {
+            font-weight: bold;
+            float:left;
+        }
     </style>
     <body>
         <h1>Kurt Laws</h1>
@@ -24,25 +35,23 @@
             professional.</p>
         
         <h2>Work Experience</h2>
-            <table>
-                <tr>
-                    <th>Applications Developer</th>
-                    <th class="middle">Self Employed</th>
-                    <th class="right">July 2020 - Present</th>
-                </tr>
-            </table>
+                <div class="container">
+                    <div class="left"> Applications Developer</div>
+                    <div class="middle">Self Employed</div>
+                    <div class="right">July 2020 - Present</div>
+                </div>
+                <br />
             <ul>
                 <li>Created and maintained web applications and desktop applications</li>
                 <li>Built web services to customized specifications</li>
                 <li>Built a network of clients to keep downtime to a minimum</li>
             </ul>
-            <table>
-                <tr>
-                    <th>Applications Analyst</th>
-                    <th class="middle">J. Iverson Riddle Developmental Ctr.</th>
-                    <th class="right">January 2019 - July 2020</th>
-                </tr>
-            </table>
+            <div class="container">
+                <div class="left"> Applications Analyst</div>
+                <div class="middle">J. Iverson Riddle Developmental Ctr.</div>
+                <div class="right">January 2019 - July 2020</div>
+            </div>
+            <br>
             <ul>
                 <li>Created and maintained web applications, desktop applications, and services.</li>
                 <li>Primary support of services that connected to Raleigh and downloaded both HEARTS, and BEACON data.</li>
@@ -51,13 +60,12 @@
                 <li>Created a web based resident payroll application to enter and track residential payroll data.</li>
                 <li><b>TECHNOLOGIES:</b> Visual Studio 2010/2017,C#,Visual Basic, T-SQL, Javascript/JQuery, Git</li>
             </ul>
-            <table>
-                <tr>
-                    <th>Full Stack Developer</th>
-                    <th class="middle">Cornerstone United Inc.</th>
-                    <th class="right">July 2015 - April 2018</th>
-                </tr>
-            </table>
+            <div class="container">
+                <div class="left">Full Stack Developer</div>
+                <div class="middle">Cornerstone United Inc.</div>
+                <div class="right">July 2015 - April 2018</div>
+            </div>
+            <br>
             <ul>
                 <li>Supported VIN lookup services for Suzuki and Arctic Cat vehicles.</li>
                 <li>Supported contract services, tailored to customer specs that allow submission of contract quotes, contract creation,
@@ -68,13 +76,12 @@
                 <li>Worked help desk tickets to patch and resolve application issues.</li>
                 <li><b>TECHNOLOGIES:</b>Visual Studio 2017,C#,Restful services, T-SQL, SQL Red Gate, TFS, Javascript/JQuery</li>
             </ul>
-            <table>
-                <tr>
-                    <th> Security, Compliance, Team Lead</th>
-                    <th class="middle">Dell Services/Frye Regional Medical Center</th>
-                    <th class="right">March 2007 - July 2015</th>
-                </tr>
-            </table>
+            <div class="container">
+                <div class="left">Security, Compliance, Team Lead</div>
+                <div class="middle">Dell Services/Frye Regional Medical Center</div>
+                <div class="right">March 2007 - July 2015</div>
+            </div>
+            <br>
             <ul>
                 <li>Managed team assignments and delegated responsibilities related to audit prep and application/server updates.</li>
                 <li>Collaborated with DBA to develop a .NETMVC4 website to import data, classify software types, track software license
@@ -89,13 +96,12 @@
                     to NetApp SAN.</li>
                 <li><b>TECHNOLOGIES:</b> Visual Studio 2010 Community Edition, C#, Javascript/JQuery, T-SQL</li>
             </ul>
-            <table>
-                <tr>
-                    <th>Desktop Support</th>
-                    <th class="middle">Frye Regional Medical Center</th>
-                    <th class="right">March 2003 - March 2007</th>
-                </tr>
-            </table>
+            <div class="container">
+                <div class="left">Desktop Support</div>
+                <div class="middle">Frye Regional Medical Center</div>
+                <div class="right">March 2003 - March 2007</div>
+            </div>
+            <br>
             <ul>
                 <li>Computer Break/Fix, Software Installation, Network Troubleshooting</li>
                 <li>Implemented various Autoit applications to automate job tasks.</li>
@@ -105,24 +111,22 @@
             </ul>
 
         <h2>Education</h2>
-        <table>
-            <tr>
-                <th>Hickory NC</th>
-                <th class="middle">Catawba Valley Community College</th>
-                <th class="right">2006 - 2008</th>
-            </tr>
-        </table>
+        <div class="container">
+            <div class="left">Hickory NC</div>
+            <div class="middle">Catawba Valley Community College</div>
+            <div class="right">2006 - 2008</div>
+        </div>
+        <br>
         <ul>
             <li>Cyber/Computer Forensics</li>
             <li> IT Security, Ethical Hacking, Cyber Fraud Detection</li>
         </ul>
-        <table>
-            <tr>
-                <th>Lenoir NC</th>
-                <th class="middle">Caldwell Community College</th>
-                <th class="right">1998 - 2003</th>
-            </tr>
-        </table>
+        <div class="container">
+            <div class="left">Lenoir NC</div>
+            <div class="middle">Caldwell Community College</div>
+            <div class="right">1998 - 2003</div>
+        </div>
+        <br>
         <ul>
             <li>Cisco Certified Networking Associate Course</li>
             <li>Basic Programming</li>
